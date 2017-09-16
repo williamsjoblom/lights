@@ -35,6 +35,7 @@ The desired operation on selected light(s):
  ```
  ##### ARGUMENT
   A integer between 0 and 255. Relative dimming is done by placing a ```+``` or ```-``` before the integer.
+  
 ---
 #### color
  ```
@@ -46,7 +47,8 @@ The desired operation on selected light(s):
 
  ##### ARGUMENT
   ```cold```, ```normal``` or ```warm```. You can also cycle between given colors by using ```+``` or ```-```.
-
+  
+---
 #### power
  ```
  $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> power on
