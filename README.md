@@ -29,6 +29,9 @@ The desired operation on selected light(s):
 
 #### dim
  ```
+ $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> dim 128
+ ```
+ ```
  $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> dim +32
  ```
  **ARGUMENT**:
