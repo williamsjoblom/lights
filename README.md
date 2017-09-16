@@ -30,29 +30,27 @@ $ lights <GATEWAY-IP> <GATEWAY-KEY> group:living-room <OPERATION> <ARGUMENT>
 The desired operation on selected light(s):
 
 #### dim
-```
-$ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> dim +32
-```
-##### ARGUMENT
-A integer between 0 and 255. Relative dimming is done by placing a ```+``` or ```-``` before the integer.
-  
+ ```
+ $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> dim +32
+ ```
+ ##### ARGUMENT
+  A integer between 0 and 255. Relative dimming is done by placing a ```+``` or ```-``` before the integer.
+---
 #### color
-```
-$ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> color warm
-```
-```
-$ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> color +
-```
+ ```
+ $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> color warm
+ ```
+ ```
+ $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> color +
+ ```
 
-##### ARGUMENT
-```cold```, ```normal``` or ```warm```. You can also cycle between given colors by using ```+``` or ```-```.
+ ##### ARGUMENT
+  ```cold```, ```normal``` or ```warm```. You can also cycle between given colors by using ```+``` or ```-```.
 
 #### power
-```
-$ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> power on
-```
+ ```
+ $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> power on
+ ```
 
-##### ARGUMENT
-```on``` or ```off```.
-
-
+ ##### ARGUMENT
+ ```on``` or ```off```.
