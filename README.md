@@ -1,7 +1,5 @@
 # lights
-Small command line tool for controlling IKEA Trådfri lights.
-
-Mainly built to allow dimming of lights with key bindings.
+Small command line tool for controlling IKEA Trådfri lights. Mainly built to allow dimming of lights with key bindings.
 ### Installation
  ```
  # ./install.sh
