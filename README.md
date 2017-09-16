@@ -9,10 +9,10 @@ Small command line tool for controlling IKEA Trådfri lights. Mainly built to al
 $ lights <GATEWAY-IP> <GATEWAY-KEY> <LIGHT> <OPERATION> <ARGUMENT>
 ```
 
-### GATEWAY-IP
+**GATEWAY-IP**:
 The IP of your Trådfri gateway.
 
-### GATEWAY-KEY
+**GATEWAY-KEY**:
 The security key found on the bottom of your gateway.
 
 ### LIGHT
